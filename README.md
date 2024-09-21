@@ -22,7 +22,9 @@ If you're using Xorg, you can use xdotool instead of dotool.
 
 ### What if I'm not using systemd?
 
-Yeah. I don't love it either. If you write a script that kills the `powermate.sh` process when the Powermate is unplugged, you can specify that in your udev rule instead.
+Yeah. I don't love it either. You can do all of this from `udev`.
+
+If you write a script that kills the `powermate.sh` process when the Powermate is unplugged, you can specify that in your udev rule instead.
 
 ## Installation
 
