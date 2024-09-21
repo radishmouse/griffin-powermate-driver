@@ -1,0 +1,11 @@
+[Unit]
+Description=Powermate driver via evtest and dotool
+
+[Service]
+ExecStart=/home/<your-username>/bin/powermate.sh
+Restart=on-failure
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=graphical-session.target

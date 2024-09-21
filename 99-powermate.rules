@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ATTRS{idVendor}=="077d", ATTRS{idProduct}=="0410", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_USER_WANTS}="powermate.service", ENV{SYSTEMD_USER}="<your-username>"
+SUBSYSTEM=="input", ATTRS{idVendor}=="077d", ATTRS{idProduct}=="0410", ACTION=="remove", RUN+="/bin/su -c 'systemctl --user stop powermate.service' <your-username>"
