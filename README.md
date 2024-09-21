@@ -14,7 +14,7 @@ This repo contains:
 * `powermate.service` - starts the `powermate.sh` script as a user service.
 * `99-powermate.rules` - a udev rule that starts the `powermate.service` when the Powermate is plugged in.
 
-I developed and tested this on Arch Linux with the Wayland display server. It should work with Xorg, using xdotool instead of dotool.
+I developed and tested this on Arch Linux with the Wayland display server.
 
 ### What if I'm not using Wayland?
 
