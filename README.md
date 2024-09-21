@@ -24,6 +24,8 @@ If you're using Xorg, you can use xdotool instead of dotool.
 
 Yeah. I don't love it either. You can do all of this from `udev`.
 
+Instead of starting the service with systemd, you can start the `powermate.sh` script directly from the udev rule.
+
 If you write a script that kills the `powermate.sh` process when the Powermate is unplugged, you can specify that in your udev rule instead.
 
 ## Installation
