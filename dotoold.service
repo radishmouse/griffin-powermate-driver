@@ -3,9 +3,8 @@ Description=dotoold Daemon Service
 After=graphical-session.target
 
 [Service]
-ExecStart=/usr/bin/dotoold
+ExecStart=/usr/local/bin/dotoold
 Restart=on-failure
 
 [Install]
 WantedBy=graphical-session.target
-
