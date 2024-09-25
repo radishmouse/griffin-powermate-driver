@@ -1,4 +1,4 @@
-The core of this solution is thanks to: https://www.gilesorr.com/blog/powermate-on-linux.html
+The core of this solution is thanks to https://www.gilesorr.com/blog/powermate-on-linux.html who modified the work of https://m0aws.co.uk/?p=2201
 
 # Griffin Powermate on Linux
 
